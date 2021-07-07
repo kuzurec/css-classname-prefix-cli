@@ -1,0 +1,22 @@
+{"name": "css-classname-prefix-cli",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.ts",
+  "bin": {
+    "ccpc": "./bin/ccpc/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kuzure",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "css-tree": "^1.1.3",
+    "jscodeshift": "^0.13.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0"
+  }}
